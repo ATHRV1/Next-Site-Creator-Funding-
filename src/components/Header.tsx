@@ -1,8 +1,8 @@
 'use client';
-import {faMugHot, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faMugHot} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Session} from "next-auth";
-import {signIn, signOut} from "next-auth/react";
+import {signIn} from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import {parseFullName} from "parse-full-name";
